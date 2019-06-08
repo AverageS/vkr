@@ -1,1 +1,1 @@
-from sitvkr import *
+from .sitvkr import *
