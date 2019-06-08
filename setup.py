@@ -23,4 +23,5 @@ setup(
     long_description=doc,
     url=url,
     install_requires=[s.strip() for s in open(reqs_file).readlines()],
+    package_data={'sitnikov_vkr': ['data/*', 'classifiers/*']}
 )
